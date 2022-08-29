@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoLab</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="barra_navegacion">
+            <h1>VideoLab</h1>
+            <input type="text" placeholder="Search" name="query" class="search">
+            <button class="btn">Login</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="columna_izquierda">
+
+            <video class="video_principal" controls muted>
+                <source src="mascarilla.mp4" type="video/mp4">
+                <source src="mascarilla.mp4" type="video/ogg">
+            </video>
+
+            <div class="barra_inferior">
+                <div class="start">
+                    <h1>Mascara Facial</h1>
+                    <h3>1.3K Vistas | Agosto, 28, 2022</h3>
+                    <div class="usuario">
+                        <img src="user-circle.png" alt="user-circle">
+                        <span class="nombre_usuario">Karina López</span>
+                    </div>
+                </div>
+                <button class="btn">Subscribete</button>
+            </div>
+        </div>
+
+        <div class="columna_derecha">
+
+            <h3 class="sub-header">Siguiente video</h3>
+
+            <div class="video-small">
+                <video onmouseover="play()" onmouseout="pause()" src="electroporacion.mp4" type="video/mp4"
+                    class="vid-s"></video>
+                <span class="titulo_video">Electroporación</span>
+            </div>
+
+            <div class="video-small">
+                <video onmouseover="play()" onmouseout="pause()" src="botox.mp4" alt="video mascarilla"
+                    class="vid-s"></video>
+                <span class="titulo_video">Toxina Botulínica</span>
+            </div>
+
+            <div class="video-small">
+                <video onmouseover="play()" onmouseout="pause()" src="hidratacion.mp4" alt="video hidratacion"
+                    class="vid-s"></video>
+                <span class="titulo_video">Hidratación Facial</span>
+            </div>
+
+            <div class="video-small">
+                <video onmouseover="play()" onmouseout="pause()" src="peeling_us.mp4" alt="video peeling"
+                    class="vid-s"></video>
+                <span class="titulo_video">Peeling Ultrasonico</span>
+            </div>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
