@@ -52,18 +52,19 @@ main {
 
 .columna_izquierda {
     width: 70%;
-
+    height: 580px;
 }
 
 .columna_derecha {
     width: 30%;
+    height: 580px;
 }
 
 .video_principal {
     margin: 20px;
     border-radius: 10px;
-    width: 637px;
-    height: 300px;
+    width: 96%;
+    height: 68%;
 }
 
 .barra_inferior {
@@ -88,7 +89,7 @@ main {
 }
 
 .start h3 {
-    color: #333;
+    color: rgb(51, 51, 51);
     font-weight: 400;
 }
 
@@ -117,11 +118,11 @@ main {
 }
 
 .vid-s {
-    width: 70px;
-    height: 90px;
+    width: 120px;
+    height: 120px;
 }
 
 .titulo_video {
-    font-size: 17px;
+    font-size: 20px;
     font-weight: bold;
 }
